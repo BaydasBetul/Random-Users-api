@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Russo+One&display=swap");
+
+body {
+  font-family: "Amatic SC", cursive;
+  font-family: "Russo One", sans-serif;
+  background-color: #c2e9fb;
+}
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(3, 47, 68);
+  height: 100vh;
+  font-family: "Girassol", sans-serif;
+  /* background-image: url("./assets/pexels-fillvlad-9799359.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.usercard {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  margin: 0px auto 15px;
+  max-width: 70vw;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 5px solid rgb(3, 47, 68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.card-container {
+  width: 70vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.userinfo img {
+  border: 2px solid rgb(3, 47, 68);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: auto;
+}
+.userinfo h2,
+h5 {
+  display: flex;
+  flex-direction: row;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.email img {
+  display: inline-block;
+  width: 35px;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: cente;
+}
+.phone img {
+  display: inline-block;
+  width: 35px;
+}
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: cente;
+}
+.country img {
+  display: inline-block;
+  width: 35px;
+}
+button {
+  background: rgb(241, 111, 3);
+  border: 2px solid black;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding: 5px;
+}
